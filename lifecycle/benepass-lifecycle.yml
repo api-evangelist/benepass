@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of Benepass hosts
+status_page: https://status.getbenepass.com/
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
+notes: >-
+  Benepass exposes a dedicated status subdomain (status.getbenepass.com, HTTP
+  200). No public API versioning policy, deprecation policy (RFC 8594
+  Sunset/Deprecation), or SLA document was found — Benepass integrates with
+  customers over private HRIS/payroll API + SFTP + Workday RaaS rather than a
+  public developer API, so there is no public spec from which to derive
+  deprecated operations.

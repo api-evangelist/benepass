@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.getbenepass.com/
+url: https://trust.getbenepass.com/
+platform: SafeBase
+certifications:
+- SOC 2 Type 2
+- HITRUST e1
+- HIPAA
+- GDPR
+- CCPA
+external_ratings:
+- SecurityScorecard: A (getbenepass.com and app.getbenepass.com)
+- ImmuniWeb: A
+- Qualys SSL Labs: A+
+evidence:
+- source: https://trust.getbenepass.com/
+  keywords:
+  - soc 2 type 2
+  - hitrust
+  - hipaa
+  - gdpr
+  - ccpa
+  - trust portal
+notes: >-
+  Benepass runs a SafeBase-powered Trust Portal at trust.getbenepass.com listing
+  SOC 2 Type 2, HITRUST e1, HIPAA, GDPR, and CCPA, plus third-party security
+  grades (SecurityScorecard A, ImmuniWeb A, Qualys SSL Labs A+). A responsible-
+  disclosure channel is offered from the same portal.

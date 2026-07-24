@@ -1,0 +1,27 @@
+# Benepass
+
+> Benepass is a financial-technology platform for flexible, compliant employee
+> benefits — one platform and one card covering pre-tax accounts (HSA, FSA, HRA),
+> Lifestyle Spending Accounts (LSAs), and programs for wellness, professional
+> development, family care, food, and commuter benefits, built for global teams.
+> Benepass connects to employer systems through HRIS/payroll integrations (API,
+> SFTP, and Workday RaaS); it does not currently publish a public developer API.
+
+## Company
+- [Website](https://www.getbenepass.com/): Benepass homepage
+- [Integrations](https://getbenepass.com/platform/integrations): HRIS, payroll, and benefits-administration integrations (Workday, UKG, ADP, Rippling, Gusto/Deel, Paylocity, Paycom, and more)
+- [Blog](https://getbenepass.com/blog): Company and benefits blog
+- [Careers](https://getbenepass.com/careers): Open roles
+- [Help Center](https://support.getbenepass.com/en/): Support and documentation
+
+## Trust & Security
+- [Trust Portal](https://trust.getbenepass.com/): SafeBase trust center — SOC 2 Type 2, HITRUST e1, HIPAA, GDPR, CCPA
+- [security.txt](https://www.getbenepass.com/.well-known/security.txt): RFC 9116 security contact
+- [Status](https://status.getbenepass.com/): Service status page
+
+## Legal
+- [Privacy Policy](https://getbenepass.com/privacy)
+- [Terms of Service](https://getbenepass.com/terms-of-service)
+
+## Code
+- [GitHub](https://github.com/benepass): Benepass Inc. organization (public tooling repos)

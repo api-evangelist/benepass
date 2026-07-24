@@ -1,0 +1,4 @@
+Contact: mailto:security@getbenepass.com
+Expires: 2026-06-16T06:00:00.000Z
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/A821B964FFCB61042A4F57720B85488DD2A55BDE
+Preferred-Languages: en

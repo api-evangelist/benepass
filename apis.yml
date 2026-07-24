@@ -1,8 +1,14 @@
 aid: benepass
 name: Benepass
-description: 'Benepass is a company surfaced as a portfolio company of threshold-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Benepass is a financial-technology platform for flexible, compliant employee
+  benefits — one platform and one card covering pre-tax accounts (HSA, FSA, HRA),
+  Lifestyle Spending Accounts (LSAs), and programs for wellness, professional
+  development, family care, food, and commuter benefits. Benepass integrates with
+  employer HRIS and payroll systems (via API, SFTP, and Workday RaaS) to automate
+  benefit enrollment, contributions, and deductions for global, distributed teams.
+  Benepass does not currently publish a public developer API; this profile
+  captures its public trust, security, and company surface.
 url: https://raw.githubusercontent.com/api-evangelist/benepass/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - threshold-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.getbenepass.com/logo192.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Employee Benefits
+- Human Resources
+- Payroll
+- Benefits Administration
+- Health Savings Account
+- Lifestyle Spending Account
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,42 @@ maintainers:
 common:
 - type: Website
   url: https://www.getbenepass.com/
+- type: Integrations
+  url: https://getbenepass.com/platform/integrations
+- type: Support
+  url: https://support.getbenepass.com/en/
+- type: Blog
+  url: https://getbenepass.com/blog
+- type: PrivacyPolicy
+  url: https://getbenepass.com/privacy
+- type: TermsOfService
+  url: https://getbenepass.com/terms-of-service
+- type: GitHubOrganization
+  url: https://github.com/benepass
+- type: Login
+  url: https://app.getbenepass.com/
+- type: StatusPage
+  url: https://status.getbenepass.com/
+- type: Lifecycle
+  url: lifecycle/benepass-lifecycle.yml
+- type: TrustCenter
+  url: security/benepass-trust-center.yml
+- type: Compliance
+  url: https://trust.getbenepass.com/
+- type: Security
+  url: https://www.getbenepass.com/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/benepass-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/benepass-domain-security.yml
+- type: SecurityTxt
+  url: well-known/benepass-security.txt
+- type: WellKnown
+  url: well-known/benepass-well-known.yml
+- type: LLMsTxt
+  url: llms/benepass-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
